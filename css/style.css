@@ -1,10 +1,18 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
 .position-relative{
 
     margin-top: 200px;
+    color: aliceblue;
+    background-color: black;    
 }
 h2{
     display: flex;
     margin-top: 300px;
+    color: aliceblue;
 }
 p{
     margin-top: 20px;
@@ -16,6 +24,12 @@ p{
     padding-right: 5px;
     padding-bottom: 5px;
 }
-ul{
-    border: none;
+li{
+    width: 150px;
+    
+}
+
+#about{
+    color: aliceblue;
+    background-color: black;
 }

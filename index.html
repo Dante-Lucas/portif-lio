@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Vite App</title>
   </head>
-  <body>
-      <header>
+  <body class="bg-dark">
+      <header class="text-bg-danger">
         <nav class="navbar navbar-expand-lg">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">Portifólio</a>
@@ -29,10 +29,10 @@
       </header>
 
 
-      <section id="intro">
-        <div class="container text-center">
-          <div class="position-relative">
-            <div class="position-absolute top-50 start-50 translate-middle">
+      <section id="intro" class="jumbotron">
+        <div class="text-center">
+          <div class="position-relative bg-dark">
+            <div class="position-absolute top-50 start-50 translate-middle bg-dark">
               <h1 class="mb-0 mt-5 pb-0 pt-5 display-5">Hello! My name's Lucas Almeida and  I'm Web developer!</h1>        
             </div>
           </div>
@@ -41,7 +41,7 @@
 
       <main id="main">
 
-        <section id="about">
+        <section id="about" class="bg-dark">
           <div class="container">
             <div class="row">
               <div class="col-lg-6 pt-5 mt-5">
@@ -51,13 +51,15 @@
                 </p>
                 <div class="col-lg-3 display-6">Especialidades</div>
                 <p class="text">Desenvolvedor full-stack utilizando atualmente as seguintes tecnologias e linguagens mais usadas no mercado:</p>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">HTML5</li>
-                  <li class="list-group-item">CSS3</li>
-                  <li class="list-group-item">JS</li>
-                  <li class="list-group-item">Python</li>
-                  <li class="list-group-item">Django</li>
-                </ul>
+                <div class="lista">
+                   <ul class="list-group list-group-flush">
+                    <li class="list-group-item list-group-item-dark bg-dark">HTML5</li>
+                    <li class="list-group-item list-group-item-dark bg-dark">CSS3</li>
+                    <li class="list-group-item list-group-item-dark bg-dark">JS</li>
+                    <li class="list-group-item list-group-item-dark bg-dark">Python</li>
+                    <li class="list-group-item list-group-item-dark bg-dark">Django</li>
+                  </ul>
+              </div>
               </div>
             </div>
           </div>
@@ -67,7 +69,7 @@
             <h2 class="display-6">Projetos anteriores</h2>
             <ul class="list-group border-0">
               <a class="list-group-item list-group-item-action" href="https://github.com/Dante-Lucas/psw10">Cadastro de pacientes:</a>
-              <a class="list-group-item list-group-item-action">Sistema de flashcard</a>
+              <a class="list-group-item list-group-item-action" href="https://github.com/Dante-Lucas/Pystack9">Sistema de flashcard</a>
             </ul>
           </div>
         </section>
@@ -78,7 +80,7 @@
         <div class="container">
           <h2 class="display-6">Contate-se comigo</h2>
           <br>
-          <form action="" onsubmit="envio();">
+          <form action="" onsubmit="envio();" class="bg-secundary">
             <div class="mb-3">
               <label for="" class="form-label">Name</label>
               <input type="text" name="name" id='name' class="form-control" placeholder="Name">
